@@ -3,6 +3,7 @@ public class User {
     int age;
     int average;
 
+
     public User(String name, int age) {
         this.name = name;
         this.age = age;
@@ -22,11 +23,9 @@ public class User {
 
         int result = 0;
         for (int i = 0; i < users.length; i++) {
-            result = result User[i];
+            result = result + users[i].age;
         }
     }
-
-
 }
 
 

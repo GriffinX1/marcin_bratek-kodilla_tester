@@ -10,6 +10,8 @@ public class Application {
         this.height = height;
     }
 
+   
+
     public static void main(String[] args) {
         if (name != null) {
             if (age > 30 && height > 160) {
