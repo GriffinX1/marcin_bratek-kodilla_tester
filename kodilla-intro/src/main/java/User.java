@@ -33,6 +33,7 @@ public class User {
         for (int i = 0; i < users.length; i++) {
             result = result + users[i].age;
         }
+        System.out.println(result);
     }
 }
 
