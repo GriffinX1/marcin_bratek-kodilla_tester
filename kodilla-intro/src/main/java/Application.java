@@ -1,8 +1,8 @@
 public class Application {
 
-    static String name = "Adam";
-    static double age = 40.5;
-    static double height = 178;
+    static String name;
+    static double age;
+    static double height;
 
     public Application(String name, double age, double height) {
         this.name = name;
@@ -10,15 +10,14 @@ public class Application {
         this.height = height;
     }
 
-   
 
     public static void main(String[] args) {
-        if (name != null) {
-            if (age > 30 && height > 160) {
-                System.out.println("User is older than 30 and taller than 160cm");
-            } else {
-                System.out.println("User is 30 (or younger) or 160cm (or shorter)");
-            }
+        Application adam = new Application("Adam", 40.5, 178);
+        if (adam.age > 30 && height > 160) {
+            System.out.println("User is older than 30 and taller than 160cm");
+        } else {
+            System.out.println("User is 30 (or younger) or 160cm (or shorter)");
         }
     }
 }
+

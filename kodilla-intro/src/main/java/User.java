@@ -10,6 +10,14 @@ public class User {
 
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     public static void main(String[] args) {
         User starlord = new User("Star-Lord", 42);
         User gamora = new User("Gamora", 43);
